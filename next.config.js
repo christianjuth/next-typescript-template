@@ -1,5 +1,5 @@
 // next.config.js
 
 module.exports = {
-  /* config options here */
+  excludeFile: (str) => /\*.{spec,test}.tsx/.test(str)
 }

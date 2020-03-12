@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
-    "typescript": "tsc --noEmit"
+    "typescript": "tsc --noEmit",
+    "dock": "docker-compose up -d --build"
   },
   "husky": {
     "hooks": {
