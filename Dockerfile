@@ -1,9 +1,9 @@
 FROM mhart/alpine-node:10 AS builder
 WORKDIR /app
 COPY package.json .
-RUN yarn install
-COPY . .
-RUN yarn build && yarn --production
+RUN yarn
+COPY . ./
+RUN yarn build
 
 FROM mhart/alpine-node:10
 WORKDIR /app
