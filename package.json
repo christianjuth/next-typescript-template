@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
+    "start": "next",
     "test": "jest --watch",
     "typescript": "tsc --noEmit",
     "dock": "docker-compose up -d --build"
